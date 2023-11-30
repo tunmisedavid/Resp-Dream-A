@@ -1,0 +1,113 @@
+.fifth-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+.fifth-1{
+     position: relative;
+} 
+.fifth-title{
+    font-size: 2.5rem;
+    width: 32rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.Testimonials{
+    font-size: 3.2rem;
+    font-weight: 600;
+}
+.color-saying{
+    background-color:#FDC221 ;
+    width: 6.5rem;
+    height: 0.4rem;
+    position: absolute;
+    bottom: 12px;
+    left: 24.3rem;
+    z-index: -1;
+}
+.fifth-2{
+    display: flex;
+    column-gap: 7rem;
+    margin-top: 2rem;
+}
+.card-one{
+    box-shadow: 0 0 4px rgb(230, 229, 229);
+    padding: 1rem;
+}
+.fifth-lourem{
+    line-height: 1.4rem;
+    width: 23.4rem;
+}
+.ui-container{
+    position: relative;
+}
+.UI{
+    font-weight: bold;
+    margin-left: 1.5rem;
+    font-size: 18px;
+}
+.ui-color{
+    background-color:#FDC221 ;
+    width: 1rem;
+    height: 0.3rem;
+    position: absolute;
+    bottom: 0.5rem;
+}
+
+@media (max-width:768px) {
+    .fifth-content{
+        margin-top: 0.7rem;
+        margin-bottom: 1.5rem
+    }
+    .fifth-title{
+        font-size: 2rem;
+        line-height: 2.2rem;
+    }
+    .Testimonials{
+        font-size: 2.5rem;
+    }
+    .color-saying{
+        width: 5.5rem;
+        left: 23rem;
+        bottom: 6px;
+    }
+    .fifth-2{
+        margin-top: 1rem;
+        column-gap: 2rem;
+    }
+    .card-one{
+        padding: 0.8rem;
+    }
+    .fifth-lourem{
+        width: 20rem;
+    }
+}
+@media (max-width:425px) {
+    .fifth-content{
+        margin-top: 0.4rem;
+        margin-bottom: 1rem;
+    }
+    .fifth-title{
+        font-size: 1.2rem;
+        line-height: 1.4rem;
+    }
+    .Testimonials{
+        font-size: 1.5rem;
+    }
+    .color-saying{
+        left: 20rem;
+        bottom: 4px;
+        height: 0.2rem;
+        width: 3rem;
+    }   
+    .fifth-2{
+        flex-direction: column;
+        column-gap: 0;
+        row-gap: 1.5rem;
+        font-size: 14px;
+    }
+}
